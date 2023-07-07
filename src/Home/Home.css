@@ -1,0 +1,27 @@
+.loadingContainer {
+    margin: 20px 0;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    
+  }
+  .button{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly
+  }
+
+.row{
+  display: flex;
+  flex-direction: column;
+}
+.quiz-header-wrapper{
+  background-color: rgb(222, 222, 222);
+  height: 20vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

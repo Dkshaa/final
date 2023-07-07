@@ -1,0 +1,74 @@
+.questions {
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  align-items: flex-start;
+  text-align: center;
+}
+  
+  .singleQuestion {
+    width: 15%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 5px solid grey;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .options {
+    color: green;
+    background: white;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .singleOption {
+    /* width: 50%; */
+    width: auto;
+    height: 50px;
+    padding: 15px 20px;
+    margin: 10px;
+    color: green;
+    box-shadow: 0 0 2px black;
+  }
+  
+  /* @media (max-width: 614px) { */
+    /* .singleOption { */
+      /* width: 100%; */
+    /* } */
+  /* } */
+  
+  .controls {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .score{
+    margin-bottom: 0.5em;
+    /* color: rgba(0, 0, 0, 0.88); */
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.3333333333333333;
+    display: block;
+    margin-top: 10px;
+    background-color: red;
+    border:1px solid #000;
+    color: white;
+  }
+
+  .play-another-game{
+    background-color: rgb(214, 157, 220);
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    margin-bottom: 50px;  
+  }
